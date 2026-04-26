@@ -64,6 +64,7 @@ Built around an ESP32 with triple NRF24 modules, a crisp OLED display, and a 250
 - **Camera Detector** – Passively scans nearby WiFi traffic to detect and identify wireless security cameras. Fingerprints devices by MAC OUI and frame heuristics to identify Ring, Blink, Nest, Arlo, Wyze, Reolink, Eufy, Hikvision, Dahua, Axis, and 20+ more camera brands without transmitting a single packet. Displays the camera's MAC address, SSID, signal strength, and confidence level. Lock onto a detected camera and use the signal strength meter to physically locate it.
 - **WiFi Deauther** – Educational tool for testing network security with deauthentication frames on authorized networks
 - **Deauth Scanner** – Monitors and analyzes WiFi deauthentication frames in real-time. Displays the source MAC, channel, and live RSSI of the deauthing transmitter. Use it to physically locate the source of a deauth attack.
+- **Packet Monitor** – Passive 802.11 packet capture in promiscuous mode with channel hopping, live packet counters by type, and CSV export over Serial.
 - **Beacon Spam** – Broadcasts multiple fake WiFi networks for testing. Choose to clone real nearby networks, select specific SSIDs, or use a list of random names.
 - **Evil Portal** – Creates a captive portal with multiple realistic templates (Google, Facebook, Apple ID, Microsoft, and Xfinity) that automatically scans nearby networks for realistic SSID spoofing and credential capture.
 - **Pineapple Detector** – Detect and identify nearby Pineapple devices
