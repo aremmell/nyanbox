@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/0eba90bc-2ff5-40df-88a1-92e23396d1d3" alt="logo" width="100" height="auto" />
   
-  <h1>nyanBOX</h1>
+  <h1>nyanBOX™</h1>
   <p>All-in-One Gadget for BLE and 2.4GHz Networks</p>
   <p>By Nyan Devices | Maintained by jbohack & zr_crackiin</p>
 
@@ -86,6 +86,7 @@ Built around an ESP32 with triple NRF24 modules, a crisp OLED display, and a 250
 - **SmartTag Detector** - Scans for and identifies nearby Samsung SmartTag devices.
 - **Tile Detector** - Scans for and identifies nearby Tile Tracker devices.
 - **RayBan Detector** - Scans for and identifies nearby RayBan Meta smart glasses.
+- **iBeacon Detector** – Scans for and decodes Apple iBeacon BLE advertisements in real time. iBeacons are deployed in stores, airports, malls, and stadiums to track your movement and behavior.
 - **BLE Spammer** – Broadcasts BLE advertisement packets for testing
 - **Swift Pair** - Triggers Windows Swift Pair notifications by broadcasting fake Microsoft device advertisements.
 - **Sour Apple** – Mimics Apple Bluetooth signals like AirPods pairing pop-up to test device resilience against protocol exploits.
